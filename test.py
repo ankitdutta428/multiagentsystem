@@ -1,7 +1,8 @@
 import requests
+from utils.config import OPENROUTER_API_KEY
 
 headers = {
-    "Authorization": "Bearer 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",
+    "Authorization": "Bearer {OPENROUTER_API_KEY}",
     "Content-Type": "application/json"
 }
 
